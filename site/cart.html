@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c45754f219.js" crossorigin="anonymous"></script>
+    <title>Cart</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__wrap">
+            <div class="header__left">
+                <div class="header__logo">
+                    <a href="/" class="header__logo">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                    <img src="img/search.svg" alt="search">
+                </div>
+            </div>
+            <div class="header__right">
+                <img class="header__item" src="img/menu.svg" alt="menu">
+                <img class="header__item" src="img/user.svg" alt="user">
+                <img class="header__item" src="img/cart.svg" alt="cart">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="navigation">
+            <div class="container navigation__wrap">
+                <h1>SHOPPING CART</h1>
+            </div>
+        </section>
+        <selector class="container cart">
+            <div class="cart__left">
+                <div class="cart__item">
+                    <img class="cart__img cart__img--size" src="img/Product_man (6).png" alt="product img">
+                    <div class="cart__text">
+                        <h2>MANGO PEOPLE T-SHIRT</h2>
+                        <p>Price: <span>$300</span></p>
+                        <p>Color: Red</p>
+                        <p>Size: Xl</p>
+                        <div class="cart__quantity"><label for="cart__quantity">Quantity:</label><input size="1"
+                                type="number" id="cart__quantity" class="cart__quantity"></div>
+                    </div>
+                    <img class="cart__img cart__img--close" src="img/close_btn.svg" alt="close_btn">
+                </div>
+                <div class="cart__item">
+                    <img class="cart__img cart__img--size" src="img/Product_man (7).png" alt="product img">
+                    <div class="cart__text">
+                        <h2>MANGO PEOPLE T-SHIRT</h2>
+                        <p>Price: <span>$300</span></p>
+                        <p>Color: Red</p>
+                        <p>Size: Xl</p>
+                        <div class="cart__quantity"><label for="cart__quantity">Quantity:</label><input size="1"
+                                type="number" id="cart__quantity" class="cart__quantity"></div>
+                    </div>
+                    <img class="cart__img cart__img--close" src="img/close_btn.svg" alt="close_btn">
+                </div>
+                <div class="cart__wrap">
+                    <a href="/" class="cart__btn">
+                        <p>CLEAR SHOPPING CART</p>
+                    </a>
+                    <a href="/" class="cart__btn">
+                        <p>CONTINUE SHOPPING</p>
+                    </a>
+                </div>
+            </div>
+            <div class="cart__right">
+                <form action="#" class="cart__from">
+                    <legend>SHIPPING ADRESS</legend>
+                    <input class="cart__field" type="text" placeholder="Bangladesh">
+                    <input class="cart__field" type="text" placeholder="State">
+                    <input class="cart__field" type="text" placeholder="Postcode / Zip">
+                    <button class="cart__btn cart__btn--size">GET A QUOTE</button>
+                </form>
+                <div class="cart__proceed">
+                    <h3>SUB TOTAL $900</h3>
+                    <h2>GRAND TOTAL <span>$900</span></h2>
+                    <hr>
+                    <a href="/" class="cart__btn cart__btn--pink">
+                        <p>PROCEED TO CHECKOUT</p>
+                    </a>
+                </div>
+            </div>
+
+        </selector>
+        <section class="subscribe subscribe--margin">
+            <div class="container subscribe__wrap">
+                <article class="subscribe__item">
+                    <img src="img/Intersect.png" alt="Subscribe">
+                    <h4>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</h4>
+                </article>
+                <form class="subscribe__form" action="#">
+                    <label for="subscribe__field">SUBSCRIBE<br><span class="subscribe-field__label__span">FOR OUR
+                            NEWLETTER AND
+                            PROMOTION</span></label>
+
+                    <div class="subscribe__input">
+                        <input id="subscribe__field" class="subscribe__field" type="email"
+                            placeholder="Enter Your Email" required>
+                        <input class="subscribe__btn" type="submit" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="container footer__wrap">
+            <div class="footer__left">
+                <p>© 2021 Brand All Rights Reserved.</p>
+            </div>
+            <div class="footer__right">
+                <a href="#" class="footer__item">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="footer__item">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="footer__item">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="footer__item">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
