@@ -22,9 +22,45 @@
                 </div>
             </div>
             <div class="header__right">
-                <img class="header__item" src="img/menu.svg" alt="menu">
-                <img class="header__item" src="img/user.svg" alt="user">
-                <img class="header__item" src="img/cart.svg" alt="cart">
+                <a href="#" class="header__item header__item--menu">
+                    <img src="img/menu.svg" alt="menu">
+                </a>
+                <a href="#" class="header__item">
+                    <img src="img/user.svg" alt="user">
+                </a>
+                <a href="#" class="header__item">
+                    <img src="img/cart.svg" alt="cart">
+                </a>
+                <div class="header__dropmenu">
+                    <a href="#" class="header__closebtn">
+                        <img src="img/close_btn.svg" alt="close">
+                    </a>
+                    <h1>MENU</h1>
+                    <h2>MAN</h2>
+                    <ul>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Denim</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                    </ul>
+                    <h2>WOMAN</h2>
+                    <ul>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Jackets & Coats</a></li>
+                        <li><a href="#">Polos</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Shirts</a></li>
+                    </ul>
+                    <h2>KIDS</h2>
+                    <ul>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Jackets & Coats</a></li>
+                        <li><a href="#">Polos</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Bags</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -36,7 +72,97 @@
             </div>
         </section>
         <section class="product">
-            <div class="container product_box">
+            <div class="container product__box">
+                <div class="product__details">
+                    <details class="product__filter">
+                        <summary>FILTER<svg class="product__svg product__svg--filter" width="15" height="10"
+                                viewBox="0 0 15 10" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" />
+                            </svg>
+                        </summary>
+                        <div class="product__content">
+                            <details class="product__title">
+                                <summary>CATEGORY</summary>
+                                <ul>
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Bags</a></li>
+                                    <li><a href="">Denim</a></li>
+                                    <li><a href="">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="">Jackets & Coats</a></li>
+                                    <li><a href="">Polos</a></li>
+                                    <li><a href="">Shirts</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Sweaters & Knits</a></li>
+                                    <li><a href="">T-Shirts</a></li>
+                                    <li><a href="">Tanks</a></li>
+                                </ul>
+                            </details>
+
+                            <details class="product__title">
+                                <summary>BRAND</summary>
+                                <ul>
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Bags</a></li>
+                                    <li><a href="">Denim</a></li>
+                                    <li><a href="">Hoodies & Sweatshirts</a>
+                                    </li>
+                                    <li><a href="">Jackets & Coats</a></li>
+                                    <li><a href="">Polos</a></li>
+                                    <li><a href="">Shirts</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Sweaters & Knits</a></li>
+                                    <li><a href="">T-Shirts</a></li>
+                                    <li><a href="">Tanks</a></li>
+                                </ul>
+                            </details>
+
+                            <details class="product__title">
+                                <summary>DESIGNER</summary>
+                                <ul>
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Bags</a></li>
+                                    <li><a href="">Denim</a></li>
+                                    <li><a href="">Hoodies & Sweatshirts</a>
+                                    </li>
+                                    <li><a href="">Jackets & Coats</a></li>
+                                    <li><a href="">Polos</a></li>
+                                    <li><a href="">Shirts</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Sweaters & Knits</a></li>
+                                    <li><a href="">T-Shirts</a></li>
+                                    <li><a href="">Tanks</a></li>
+                                </ul>
+                            </details>
+
+                        </div>
+                    </details>
+                    <details class="product__trending">
+                        <summary>TRENDING NOW</summary>
+                    </details>
+                    <details class="product__size">
+                        <summary>SIZE</summary>
+                        <div class="product__content product__content--size">
+                            <ul>
+                                <li><input type="checkbox">
+                                    <h6>XS</h6>
+                                </li>
+                                <li><input type="checkbox">
+                                    <h6>S</h6>
+                                </li>
+                                <li><input type="checkbox">
+                                    <h6>M</h6>
+                                </li>
+                                <li><input type="checkbox">
+                                    <h6>L</h6></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
+                    <details class="product__price">
+                        <summary>PRICE</summary>
+                    </details>
+                </div>
                 <div class="product__wrap">
                     <div class="product__card">
                         <img src="img/Product1.png" alt="Product">
