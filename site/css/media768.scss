@@ -12,6 +12,10 @@
             width: 100%;
             max-height: 360px;
         }
+        &__wrap{
+            justify-content: center;
+            column-gap: 50px;
+        }
     }
     .intro{
         &__wrap{
@@ -51,10 +55,23 @@
         }
         
     }
+    .selector{
+        &__img{
+            & img{
+                max-width: 466px;
+            }
+             
+        }
+    }
     .product{
         margin-top: 155px;
         &__btn{
             margin-top: 32px;
+        }
+        &__card{
+            &--gone{
+                display: none;
+            }
         }
     }
     .conditions{
@@ -66,6 +83,9 @@
             &:last-child{
                 margin-bottom: 48px;
             }
+        }
+        &__right{
+            width: 250px;
         }
     }
     .subscribe{

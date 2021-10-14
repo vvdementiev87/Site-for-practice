@@ -1,4 +1,4 @@
-@media (min-width: 630px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1160px) {
   .header {
     padding-left: 22px;
     padding-right: 22px;
@@ -16,6 +16,17 @@
             justify-content: center;
     -webkit-column-gap: 50px;
             column-gap: 50px;
+  }
+  .cart__right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 16px;
+            column-gap: 16px;
   }
   .intro__wrap {
     min-height: 368px;
@@ -49,9 +60,6 @@
   }
   .category__item--accesories {
     background-size: cover;
-  }
-  .selector__img img {
-    max-width: 466px;
   }
   .product {
     margin-top: 155px;
@@ -108,4 +116,4 @@
     padding-right: 22px;
   }
 }
-/*# sourceMappingURL=media768.css.map */
+/*# sourceMappingURL=media1160.css.map */

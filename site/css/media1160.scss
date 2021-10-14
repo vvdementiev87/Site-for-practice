@@ -1,8 +1,8 @@
-@media (min-width: 375px) and (max-width: 630px){
+@media (min-width: 768px) and (max-width: 1160px){
     
     .header{
-        padding-left: 6px;
-        padding-right: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
     }
     .cart{
         &__left{
@@ -10,48 +10,22 @@
         }
         &__item{
             width: 100%;
-            max-height: 188px;
+            max-height: 360px;
         }
         &__wrap{
             justify-content: center;
-            column-gap: 10px;
+            column-gap: 50px;
         }
-        &__text{
-            & h2{
-                font-size: 16px;
-                line-height: 19px;  
-            }
-            & p{
-                font-size: 14px;
-                line-height: 17px;
-            }
-        }
-        &__img{
-            &--close{
-                margin-top: 18px;
-                margin-right: 12px;
-                height: auto;
-                width: 10px;
-            }
-        }
-        &__quantity{
-            & label{
-                font-size: 14px;
-                line-height: 17px;
-            }
-        }
-        &__btn{
-            & p{
-                font-size: 12px;
-                line-height: 14px;   
-            }   
+        &__right{
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 16px;
         }
     }
     .intro{
         &__wrap{
             min-height: 368px;
-            background:none;
-            justify-content: center;
+            background-position: 0 bottom;
         }
         & h1{
             font-size: 44px;
@@ -86,14 +60,6 @@
         }
         
     }
-    .selector{
-        &__img{
-            & img{
-                max-width: 466px;
-            }
-             
-        }
-    }
     .product{
         margin-top: 155px;
         &__btn{
@@ -102,25 +68,6 @@
         &__card{
             &--gone{
                 display: none;
-            }
-        }
-        &__svg{
-            &--filter{
-                width: 37px;
-                height: 25px;
-            }
-        }
-        &__filter{
-            & h6{
-                display: none;
-            }
-
-        }
-        &__right{
-            width: 250px;
-            & summary{
-                font-size: 12px;
-                line-height: 14px;
             }
         }
     }
@@ -133,6 +80,9 @@
             &:last-child{
                 margin-bottom: 48px;
             }
+        }
+        &__right{
+            width: 250px;
         }
     }
     .subscribe{
@@ -163,16 +113,7 @@
         }
     }
     .footer{
-        padding:0 22px;
-        &__wrap{
-            flex-direction: column-reverse;
-        }
-        &__left{
-            margin-top: 40px;
-            margin-bottom: 9px;
-        }
-        &__right{
-            margin-top: 43px;
-        }
+        padding-left: 22px;
+        padding-right: 22px;
     }
 }
