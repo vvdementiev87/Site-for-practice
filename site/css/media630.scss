@@ -1,0 +1,189 @@
+@media (min-width: 375px) and (max-width: 630px){
+    
+    .header{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .cart{
+        &__left{
+            width: 100%;
+        }
+        &__item{
+            width: 100%;
+            max-height: 188px;
+        }
+        &__wrap{
+            justify-content: center;
+            column-gap: 10px;
+        }
+        &__text{
+            & h2{
+                font-size: 16px;
+                line-height: 19px;  
+            }
+            & p{
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+        &__img{
+            &--close{
+                margin-top: 18px;
+                margin-right: 12px;
+                height: auto;
+                width: 10px;
+            }
+        }
+        &__quantity{
+            & label{
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+        &__btn{
+            & p{
+                font-size: 12px;
+                line-height: 14px;   
+            } 
+            &--position{
+                height: 33px;
+                width: 175px;
+            }     
+        }
+    }
+    .intro{
+        &__wrap{
+            min-height: 368px;
+            background:none;
+            justify-content: center;
+        }
+        & h1{
+            font-size: 44px;
+            line-height: 53px;
+        }
+        & h3{
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+    .category{
+        margin-top: 20px;
+        &__item{
+            &:not(:last-child){
+                width: 100%;
+                min-height: 248px;
+                margin: 0 0 32px 0;
+            }
+            &:last-child{
+                min-height: 111px;
+            }
+            &--women{
+                background-size: cover;
+            }
+            &--men{
+                background-size: cover;
+            }
+            &--kids{
+                background-size: cover;
+            }
+            &--accesories{
+                background-size: cover;
+            }
+        }
+        
+    }
+    .selector{
+        &__img{
+            & img{
+                max-width: 466px;
+            }
+             
+        }
+        &__text{
+            & p{
+                padding: 0 19px;
+            }
+        }
+    }
+    .product{
+        margin-top: 155px;
+        &__btn{
+            margin-top: 32px;
+        }
+        &__card{
+            &--gone{
+                display: none;
+            }
+        }
+        &__svg{
+            &--filter{
+                width: 37px;
+                height: 25px;
+            }
+        }
+        &__filter{
+            & h6{
+                display: none;
+            }
+
+        }
+        &__right{
+            width: 250px;
+            & summary{
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+    .conditions{
+        &__wrap{
+            flex-direction: column;
+        }
+        &__item{
+            margin-top: 48px;
+            &:last-child{
+                margin-bottom: 48px;
+            }
+        }
+    }
+    .subscribe{
+        &__wrap{
+            padding: 64px 0 140px;
+            min-height: 614px;
+            flex-direction: column;
+        }
+        &--margin{
+            margin-top: 96px;
+        }
+    }
+    .registration{
+        &__right{
+            max-width: 354px;
+            & h1{
+                font-size: 16px;
+                line-height: 19px;
+            }
+            & p{
+                font-size: 16px;
+                line-height: 19px;
+            }
+            & li{
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+    .footer{
+        padding:0 22px;
+        &__wrap{
+            flex-direction: column-reverse;
+        }
+        &__left{
+            margin-top: 40px;
+            margin-bottom: 9px;
+        }
+        &__right{
+            margin-top: 43px;
+        }
+    }
+}

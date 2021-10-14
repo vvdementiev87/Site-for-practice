@@ -1,0 +1,119 @@
+@media (min-width: 768px) and (max-width: 1160px){
+    
+    .header{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .cart{
+        &__left{
+            width: 100%;
+        }
+        &__item{
+            width: 100%;
+            max-height: 360px;
+        }
+        &__wrap{
+            justify-content: center;
+            column-gap: 50px;
+        }
+        &__right{
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 16px;
+        }
+    }
+    .intro{
+        &__wrap{
+            min-height: 368px;
+            background-position: 0 bottom;
+        }
+        & h1{
+            font-size: 44px;
+            line-height: 53px;
+        }
+        & h3{
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+    .category{
+        margin-top: 20px;
+        &__item{
+            &:not(:last-child){
+                min-height: 168px;
+            }
+            &:last-child{
+                min-height: 116px;
+            }
+            &--women{
+                background-size: cover;
+            }
+            &--men{
+                background-size: cover;
+            }
+            &--kids{
+                background-size: cover;
+            }
+            &--accesories{
+                background-size: cover;
+            }
+        }
+        
+    }
+    .product{
+        margin-top: 155px;
+        &__btn{
+            margin-top: 32px;
+        }
+        &__card{
+            &--gone{
+                display: none;
+            }
+        }
+    }
+    .conditions{
+        &__wrap{
+            flex-direction: column;
+        }
+        &__item{
+            margin-top: 48px;
+            &:last-child{
+                margin-bottom: 48px;
+            }
+        }
+        &__right{
+            width: 250px;
+        }
+    }
+    .subscribe{
+        &__wrap{
+            padding: 64px 0 140px;
+            min-height: 614px;
+            flex-direction: column;
+        }
+        &--margin{
+            margin-top: 96px;
+        }
+    }
+    .registration{
+        &__right{
+            max-width: 354px;
+            & h1{
+                font-size: 16px;
+                line-height: 19px;
+            }
+            & p{
+                font-size: 16px;
+                line-height: 19px;
+            }
+            & li{
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+    .footer{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}
