@@ -3,6 +3,7 @@
     padding-left: 6px;
     padding-right: 6px;
   }
+
   .cart__left {
     width: 100%;
   }
@@ -11,11 +12,9 @@
     max-height: 188px;
   }
   .cart__wrap {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
+    justify-content: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
   }
   .cart__text h2 {
     font-size: 16px;
@@ -39,12 +38,15 @@
     font-size: 12px;
     line-height: 14px;
   }
+  .cart__btn--position {
+    height: 33px;
+    width: 175px;
+  }
+
   .intro__wrap {
     min-height: 368px;
     background: none;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .intro h1 {
     font-size: 44px;
@@ -54,14 +56,17 @@
     font-size: 24px;
     line-height: 29px;
   }
+
   .category {
     margin-top: 20px;
   }
   .category__item:not(:last-child) {
-    min-height: 168px;
+    width: 100%;
+    min-height: 248px;
+    margin: 0 0 32px 0;
   }
   .category__item:last-child {
-    min-height: 116px;
+    min-height: 111px;
   }
   .category__item--women {
     background-size: cover;
@@ -75,9 +80,14 @@
   .category__item--accesories {
     background-size: cover;
   }
+
   .selector__img img {
     max-width: 466px;
   }
+  .selector__text p {
+    padding: 0 19px;
+  }
+
   .product {
     margin-top: 155px;
   }
@@ -101,11 +111,9 @@
     font-size: 12px;
     line-height: 14px;
   }
+
   .conditions__wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .conditions__item {
     margin-top: 48px;
@@ -113,17 +121,16 @@
   .conditions__item:last-child {
     margin-bottom: 48px;
   }
+
   .subscribe__wrap {
     padding: 64px 0 140px;
     min-height: 614px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .subscribe--margin {
     margin-top: 96px;
   }
+
   .registration__right {
     max-width: 354px;
   }
@@ -139,14 +146,12 @@
     font-size: 16px;
     line-height: 19px;
   }
+
   .footer {
     padding: 0 22px;
   }
   .footer__wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .footer__left {
     margin-top: 40px;
@@ -155,5 +160,4 @@
   .footer__right {
     margin-top: 43px;
   }
-}
-/*# sourceMappingURL=media630.css.map */
+}/*# sourceMappingURL=media630.css.map */

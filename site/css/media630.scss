@@ -44,7 +44,11 @@
             & p{
                 font-size: 12px;
                 line-height: 14px;   
-            }   
+            } 
+            &--position{
+                height: 33px;
+                width: 175px;
+            }     
         }
     }
     .intro{
@@ -66,10 +70,12 @@
         margin-top: 20px;
         &__item{
             &:not(:last-child){
-                min-height: 168px;
+                width: 100%;
+                min-height: 248px;
+                margin: 0 0 32px 0;
             }
             &:last-child{
-                min-height: 116px;
+                min-height: 111px;
             }
             &--women{
                 background-size: cover;
@@ -92,6 +98,11 @@
                 max-width: 466px;
             }
              
+        }
+        &__text{
+            & p{
+                padding: 0 19px;
+            }
         }
     }
     .product{
